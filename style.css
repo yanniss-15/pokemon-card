@@ -1,0 +1,78 @@
+.poke-card-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+.poke-card-background .poke-card-border {
+  background-color: rgb(56, 55, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 330px;
+  border-radius: 10px;
+}
+.poke-card-background .poke-card {
+  background-color: rgb(161, 70, 161);
+  height: 310px;
+  width: 240px;
+  border-radius: 10px;
+  position: relative;
+}
+.poke-card-background .poke-card .poke-pic {
+  height: 120px;
+  width: 220px;
+  border: 5px solid;
+  border-color: darkslategrey;
+  margin-left: 6px;
+  margin-top: -10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-bottom: 10px solid;
+  border-color: lightgray;
+}
+.poke-card-background .poke-card .under-pic-info {
+  margin-top: -12px;
+  font-size: 7px;
+  text-align: center;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  margin-top: -12px;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .title-pokemon {
+  display: flex;
+  gap: 2px;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .title-pokemon .poke-name {
+  font-weight: bold;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .title-pokemon .ex-letters {
+  color: yellow;
+  font-weight: bold;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .title-pokemon .base-bloc {
+  background-color: lightgrey;
+  color: rgb(45, 43, 43);
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px 5px 10px 5px;
+  align-self: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  box-shadow: 2px 0px 2px 0px;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .pv-number {
+  display: flex;
+  align-items: center;
+}
+.poke-card-background .poke-card .poke-name-and-pv-number .pv-number .energy-ball {
+  height: 25px;
+  width: 27px;
+}/*# sourceMappingURL=style.css.map */
