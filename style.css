@@ -21,9 +21,26 @@
   border-radius: 10px;
   position: relative;
 }
+.poke-card-background .poke-card .attack-poke {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: -10px;
+}
+.poke-card-background .poke-card .attack-poke .energy-balls-attack {
+  display: flex;
+  align-items: center;
+}
+.poke-card-background .poke-card .attack-poke .name-attack, .poke-card-background .poke-card .attack-poke .damage-attack {
+  font-weight: bold;
+}
 .poke-card-background .poke-card .energy-ball {
   height: 25px;
   width: 27px;
+}
+.poke-card-background .poke-card .colorless-energy-ball {
+  height: 14px;
+  width: 15px;
 }
 .poke-card-background .poke-card .poke-pic {
   height: 120px;

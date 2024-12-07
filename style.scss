@@ -22,10 +22,33 @@
         border-radius: 10px;
         position: relative;
 
+        .attack-poke {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: -10px;
+
+            .energy-balls-attack {
+                display: flex;
+                align-items: center;
+            }
+
+            .name-attack, .damage-attack {
+
+                font-weight: bold;
+            }
+        }
+
         .energy-ball {
         
             height: 25px;
             width: 27px;
+        }
+
+        .colorless-energy-ball {
+
+            height: 14px;
+            width: 15px;
         }
 
         .poke-pic {
