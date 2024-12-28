@@ -11,14 +11,14 @@
         justify-content: center;
         align-items: center;
         width: 260px;
-        height: 330px;
+        height: 360px;
         border-radius: 10px;
     }
 
     .poke-card {
         background-color: rgb(161, 70, 161);
-        height: 310px;
-        width: 240px;
+        height: 340px;
+        width: 242px;
         border-radius: 10px;
         position: relative;
 
@@ -26,29 +26,47 @@
             display: flex;
             align-items: center;
             gap: 15px;
-            margin-top: -10px;
+            justify-content: space-between;
+            margin-right: 10px;
+            margin-bottom: -10px;
 
             .energy-balls-attack {
                 display: flex;
                 align-items: center;
+                gap: 2px;
+                margin-left: 5px;
             }
 
             .name-attack, .damage-attack {
 
                 font-weight: bold;
             }
+
+        }
+
+        .attack-info {
+            display: flex;
+            font-size: 11px;
+            margin-top: -15px;
+            margin-left: 7px;
+            gap: 3px;
         }
 
         .energy-ball {
         
-            height: 25px;
-            width: 27px;
+            height: 15px;
+            width: 15px;
+            border: 1px solid;
+            border-color: white;
+            border-radius: 100%;
         }
 
-        .colorless-energy-ball {
-
-            height: 14px;
-            width: 15px;
+        .small-energy-ball {
+            height: 10px;
+            width: 10px;
+            border: 1px solid;
+            border-color: white;
+            border-radius: 100%;
         }
 
         .poke-pic {
@@ -117,7 +135,75 @@
                 align-items: center;
                 font-weight: bold;
             }
-           
+
+        }
+
+        .weakness-and-retire-infos {
+
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            .additionnal-info {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 10px;
+                width: 105px;
+                font-size: 7px;
+                border: 3px solid;
+                background-color: lightgray;
+                border-color: lightgray;
+                border-radius: 5px;
+                box-shadow: 2px 1px 3px 0px;
+                gap: 20px;
+
+                .info-weakness, .info-resist, .info-retire {
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
+
+        .bottom-card-infos {
+            display: flex;
+            width: 100%;
+            gap: 12px;
+
+            .rarity-and-author {
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+    
+                .author-card {
+                    font-size: 8px;
+                    font-weight: bold;
+                }
+    
+                .rarity-card {
+                    display: flex;
+                    width: 18px;
+                    height: 18px;
+                    margin-top: -7px;
+                    margin-left: -4px;
+                }
+            }
+
+            .ex-rule {
+                display: flex;
+                width: 50%;
+                height: 30px;
+                font-size: 8px;
+                background-color: goldenrod;
+                border: 1px solid;
+
+                .ex-rule-title {
+                    background-color: black;
+                    color: goldenrod;
+                }
+            }
+
         }
     }
 
