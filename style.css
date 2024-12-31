@@ -150,13 +150,12 @@
   margin-left: 10px;
 }
 .poke-card-background .poke-card .bottom-card-infos .rarity-and-author .author-card {
-  font-size: 8px;
+  font-size: 7px;
   font-weight: bold;
 }
 .poke-card-background .poke-card .bottom-card-infos .rarity-and-author .rarity-card {
   display: flex;
-  width: 18px;
-  height: 18px;
+  height: 15px;
   margin-top: -7px;
   margin-left: -4px;
 }
@@ -167,6 +166,7 @@
   font-size: 8px;
   background-color: goldenrod;
   border: 1px solid;
+  margin-top: 10px;
 }
 .poke-card-background .poke-card .bottom-card-infos .ex-rule .ex-rule-title {
   background-color: black;
